@@ -1,12 +1,10 @@
 -- Rayfield UI Version - ThanhDuy V10.4 Hub | TSB
 -- Load Rayfield
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
-
--- Tạo Window
+local Rayfield = loadstring(game:HttpGet
 local Window = Rayfield:CreateWindow({
     Name = "ThanhDuy V10.4 Hub | TSB",
     LoadingTitle = "ThanhDuy Hub",
-    LoadingSubtitle = "by ThanhDuy",
+     = "by ThanhDuy",
     ConfigurationSaving = {
         Enabled = true,
         FolderName = "ThanhDuyHub",
@@ -1229,8 +1227,4 @@ Rayfield:LoadConfiguration()
 
 -- Thông báo hoàn tất
 Rayfield:Notify({
-    Title = "ThanhDuy Hub",
-    Content = "Loaded successfully!",
-    Duration = 3,
-    Image = 4483362458,
-})
+    Title = "ThanhDuy
